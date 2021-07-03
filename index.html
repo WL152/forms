@@ -1,0 +1,205 @@
+<!doctype html>
+<!--Lydia Lau,19652652,4.00pm-->
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href = "NewApplication.css">
+<meta charset ="utf-8">
+<title>Medical Insurance App</title>
+<script src="formValidation.js"></script>
+</head>
+<body>
+  <form id ="appForm" action ="#" method="get" onSubmit="return validation(this);">
+<figure>
+<img src = "logo.jpg" alt="logo">
+<h1>Medical Insurance Application</h1>
+</figure>
+
+    <section class="form-section">
+
+<fieldset>
+  <h2>Application Name</h2>
+
+  <div class="input-container">
+    <label for="fname">First Name</label>
+<input type="text" name="fname" id="fname" size="50"/>
+<span class="error-messages" id="fname-error">First name is required!</span>
+
+</div>
+
+<div class="input-container">
+  <label for="lname">Last Name</label>
+  <input type="text" id="lname" name="lname" size="50"/>
+  <span class="error-messages" id="lname-error">Last name is required!</span>
+
+</div>
+</fieldset>
+</section>
+
+
+<section class="form-section">
+  <fieldset>
+    <h2>Sex</h2>
+    <div class="input-container">
+      <input type="radio" name="gender" id="male" value="male">
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="female" value="female">
+      <label for="female">Female</label><span class ="error-messages" id="gender-error">Please select your gender!</span>
+    </div>
+</fieldset>
+</section>
+
+<section class="form-section">
+    <fieldset>
+      <h2>Mailing Address</h2>
+
+      <div class ="input-container">
+        <label for="address">Address Line 1</label>
+        <input type="text" id="address" name="address" size="50">
+        <span class="error-messages" id="address-error"></span>
+</div>
+        <div class="input-container">
+          <label for="city">City</label>
+          <input type="text" id="city" name="city" size="50">
+          <span class="error-messages" id="city-error"></span>
+        </div>
+        <div class="input-container">
+          <label for="state">State</label>
+        <select name="state" id="state">
+    <!--<option disabled selected value> -- select an option -- </option>
+          <option value="NSW">NSW</option>
+          <option value="ACT">ACT</option>
+          <option value="NT">NT</option>
+          <option value="QLD">QLD</option>
+          <option value="SA">SA</option>
+          <option value="TAS">TAS</option>
+          <option value="VIC">VIC</option>
+          <option value="WA">WA</option>-->
+        </select>
+        <span class="error-messages" id="state-error"></span>
+      
+</div>
+<div class="input-container">
+        <label>Postcode</label>
+        <input type="text" id="pc" name="pc">
+        <span class="error-messages" id="pc-error"></span>
+      </div>
+</fieldset>
+</section>
+
+<section class="form-section">
+  <fieldset>
+    <h2>Date of Birth</h2>
+      <div class="input-container">
+          <input type="text" id="dob" name="dob" placeholder="dd/mm/yyyy">
+          <span class="error-messages" id='dob-error'></span>
+      </div>
+    </fieldset>
+</section>
+
+
+<section class="form-section">
+  <fieldset>
+<h2>Contact</h2>
+    <div class = "input-container">
+    <label for = "teli">Telephone # (home)</label>
+      <input type = "tel" id="teli" name="teli" placeholder = "(02) 55555555">
+      <span class="error-messages" id="teli-error"></span>
+</div>
+
+<div class="input-container">
+    <label for="work">Work</label>
+      <input type ="tel" id="work" name="work" placeholder ="(02) 55555555">
+</div>
+<div class="input-container">
+    <label for="mobile">Mobile #</label>
+      <input type="tel" id="mobile" name="mobile" placeholder = "(04) 55555555">
+      <span class="error-messages" id="mobile-error"></span>
+</div>
+<div class="input-container">
+      <label for="email">Email</label>
+        <input type ="email" id="email" name="email">
+        <span class="error-messages" id="email-error"></span>
+</div>
+</fieldset>
+</section>
+
+<section class="form-section">
+
+
+  <fieldset>
+  <h2>Medical History</h2>
+    <div class = "input-container">
+    <label for="current">Your current doctor</label>
+    <input type ="text" id="current" name="current">
+
+</div>
+
+<div class="input-container">
+      <label for="frequent">Frequency of visits to the doctor</label>
+        <input type ="text" id="frequent" name="frequent">
+      </div>
+    </fieldset>
+  </section>
+
+<section class="form-section">
+<fieldset>
+  <h2>This Application is For</h2>
+  <div class="input-container">
+    <input type="radio" name="option" id="new" value="new">
+    <label for="new">New membership</label>
+  </div>
+    <div class="input-container">
+    <input type="radio" name="option" id="add" value="add">
+    <label for="add">Addition of dependent(s) to existing policy as listed above</label>
+  </div>
+    <div class="input-container">
+    <input type="radio" name="option" id="upgrade" value="upgrade">
+    <label for="upgrade">Upgrade existing plan</label>
+  </div>
+    <div class="input-container">
+      <input type="radio" name="option" id="other" value="other">Other:<input type="text" id="other_reason" value=""/>
+      <span class="error-messages" id="this-error"></span>
+
+        </div>
+</fieldset>
+            </section>
+
+<section class="form-section">
+
+<fieldset>
+  <h2>Plan Applied For</h2>
+  <div class = "input-container">
+  <input type="radio" name="option2" id="pri" value="pri">
+  <label for="pri">Primary Care</label>
+</div>
+  <div class="input-container">
+    <input type="radio" name="option2" id="multi" value="multi">
+    <label for="multi">Multi Care</label>
+  </div>
+    <div class="input-container">
+      <input type="radio" name="option2" id="spec" value="spec">
+      <label for="spec">Specialist and Imaging</label>
+    </div>
+      <div class="input-container">
+        <input type="radio" name="option2" id="other2" value="other2">Other:<input type="text" id="other_reason2" value="">
+          <span class="error-messages" id="plan-error"></span>
+          <span class="error-messages" id="plain-error"></span>
+
+  </div>
+
+
+</fieldset>
+</section>
+
+<section class="form-section2">
+
+    <input type ="submit" value="Submit Form"/>
+
+
+  </section>
+
+
+
+</form>
+</body>
+</html>

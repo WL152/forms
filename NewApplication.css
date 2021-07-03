@@ -1,0 +1,131 @@
+* {
+    padding:0;
+    margin:0;
+    font-family:Arial, sans-serif;
+}
+
+img {
+  width:250px;
+  height:145px;
+}
+figure {
+  text-align: center;
+  margin-top:20px;
+}
+h1 {
+  text-align: center;
+  color: blue;
+  font-family: Verdana;
+  font-weight:lighter;
+}
+
+
+form {
+    padding:20px;
+    background-color:lightgreen;
+}
+
+form div {
+    margin-top:10px;
+}
+
+label {
+    display:inline-block;
+}
+
+input {
+    border-radius:5px;
+}
+
+input[type="submit"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    text-align:center;
+}
+
+input[type="text"], input[type="number"], input[type="submit"], select {
+    height:25px;
+    font-size:1em;
+    padding:4px;
+    width:95%;
+    border:1px solid #ccc;
+
+}
+
+ input[type="submit"] {
+    padding:10px;
+    height:inherit;
+    background-color:cyan;
+    width:100%;
+}
+select {
+    height:33px;
+}
+
+@media screen and (min-width:420px) {
+    input[type="text"], input[type="number"], input[type="submit"], select {
+        width:200px;
+    }
+    label {
+        width:150px;
+    }
+    .radioAndCheckBoxLabel {
+        width:inherit;
+    }
+
+
+label{
+  display:inline-block;
+  width:12em;
+
+}
+
+input[type="text"]{
+  display:inline-block;
+  width:10em;
+}
+
+fieldset{
+  display:block;
+  margin:3em;
+  border:1px solid;
+  background-color:lightgreen;
+}
+
+
+h2{
+  text-align:center;
+  color:blue;
+}
+
+div.input-container{
+margin:0 auto;
+text-align:center;
+margin:3em;
+}
+
+
+
+figure{
+  background-color:lightgreen;
+}
+
+img{
+  padding-top:10px;
+}
+
+.error-messages{
+  display:none;
+  width:200px;
+  margin-left:10px;
+  border-radius:3px;
+  border:1px solid red;
+  background-color:#f4dcdc;
+  padding:1px;
+}
+
+.form-section2{
+  text-align:center;
+}
+}
