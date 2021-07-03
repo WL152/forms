@@ -42,7 +42,7 @@ I found this link very useful. Help me build Container easily https://docs.docke
 
 ## 5. Google Cloud Shell with Editor
 - Run ``` docker run -d -p 3008:80 wl0152/forms ```
-- ``` git clone https://github.com/WL152/forms.git ```
+- Run ``` git clone https://github.com/WL152/forms.git ```
 - Run ``` cd forms ```
 - Run ``` docker build . -t forms:v1```
 - Run ``` docker run -d -p 3008:80 forms:v1 ```
