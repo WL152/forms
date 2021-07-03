@@ -52,4 +52,4 @@ and re-run ```docker run -d -p 3008:80 forms:v1```
 
 
 
-While doing this project, I have learned how to build, run and deploy to cloud :EMOJICODE:
+While doing this project, I have learned how to build, run and deploy to cloud 😀
