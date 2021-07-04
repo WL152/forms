@@ -16,14 +16,14 @@
 ## 1. Github
 - Create a new repository (remember to Add a README file)
 - Go to Actions and create workflow
-
-
-## 2. Visuol Studio Code (VSC)  
+ 
+## 2. Visuol Studio Code (VSC)
 - Go to Clone Git Repository
 - Run ``` Git clone https://github.com/WL152/forms.git ```  
 - Update files (e.g index.html, Dockerfile, etc) and save the changes
 - Push to Github (```  git add .  ```      /      ```  git commit -m "Remark"  ```      / ``` git push ``` )
 - After push, go to Github to check the workflow is running successfully
+
 
 ## 3. Go to VSC or Terminal to build Docker Container
 - Run `  docker build . -t forms:v1`
@@ -40,16 +40,16 @@
 I do face some error messages while build container. Luckily I managed to solve it by looking for solutions on the internet. 😅
 ![image](https://user-images.githubusercontent.com/81748800/124373342-26f19780-dcc4-11eb-9a7a-35107d845fc2.png)
 
-**Lesson learn : Remember to run at the correct path ** 🤣
+**Lesson learn : Remember to run at the correct path**  🤣
 
 ## 4. Setting up a GitHub Action CI/CD pipeline with Docker containers
 - Need to create Docker ID first  https://docs.docker.com/docker-hub/
-- Add your Docker ID as a secret to GitHub. Go to GitHub repository and click Settings > Secrets > New repository secret
-- Create a new secret with the name `DOCKER_HUB_USERNAME` and Docker ID as value.
+- Add your Docker ID as a secret to GitHub. Go to GitHub repository and click Accounts Settings > Security > New repository secret
+- Create a new Access Token with the name `DOCKER_HUB_USERNAME` and Docker ID as value.
 - Create a new Personal Access Token (PAT). To create a new token, go to Docker Hub Settings and click New Access Token.
 - Add Personal Access Token (PAT) as a second secret to the GitHub secrets UI with the name `DOCKER_HUB_ACCESS_TOKEN`
 
-![image](https://user-images.githubusercontent.com/81748800/124375258-eb5ec980-dcd3-11eb-9dbf-f3ee2f2ef4c7.png)
+![image](https://user-images.githubusercontent.com/81748800/124376413-7db59c00-dcd9-11eb-8472-da45a1281820.png)
 
 For an easy reference https://docs.docker.com/ci-cd/github-ac
 
