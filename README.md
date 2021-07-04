@@ -100,7 +100,7 @@ jobs:
 ----
 
 # View using Docker Destop or Cloud Run
-## Docker Desktop  (View thru localhost
+## Docker Desktop  (View thru localhost)
 - Go to Images, select Remote Repositories and press PULL for the file. The file will move to Local
 - Go to Local and press RUN. Fill in the Localhost: 3008 (or change the last 2 digits) 
 - Key in `http://localhost:3008` in the browser 
