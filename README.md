@@ -102,11 +102,14 @@ jobs:
 # View using Docker Destop or Cloud Run
 ## Docker Desktop  (View thru localhost)
 - Go to Images, select Remote Repositories and press PULL for the file. The file will move to Local
-- Go to Local and press RUN. Fill in the Localhost: 3008 (or change the last 2 digits) 
-- Key in `http://localhost:3008` in the browser 
+- Go to Local and press RUN. Fill in the Localhost: 3008 
+- Go to Containers/App and select latest running Name.
+- Select button OPEN IN BROWSER or Key in `http://localhost:3008` in the browser 
+- Push to Docker Hub if want to view in Cloud Run
 
 
 ## Cloud Run (View thru Google Cloud Shell with Editor)
+- Pushed to Docker Hub
 - Go to https://shell.cloud.google.com/?hl=en_GB&fromcloudshell=true&show=ide%2Cterminal
 - Run ` docker run -d -p 3008:80 wl0152/forms `
 - Run ``` git clone https://github.com/WL152/forms.git ```
