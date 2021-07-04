@@ -105,7 +105,6 @@ jobs:
 - Go to Local and press RUN. Fill in the Localhost: 3008 
 - Go to Containers/App and select latest running Name.
 - Select button OPEN IN BROWSER or Key in `http://localhost:3008` in the browser 
-- Push to Docker Hub if want to view in Cloud Run
 
 
 ## Cloud Run (View thru Google Cloud Shell with Editor)
