@@ -25,7 +25,7 @@
 - After push, go to Github to check the workflow is running successfully
 
 
-## 3. Go to VSC or Terminal to build Docker Container
+## 3. Go to Terminal to build Docker Container
 - Run `  docker build . -t forms:v1`
 
 
