@@ -14,7 +14,7 @@
 # Steps:
 
 ## 1. Github
-- Create a new repository (remember to Add a README file)
+- Create a new repository (remember to Add a README file)✅
 - Go to Actions and create workflow
  
 ## 2. Visuol Studio Code (VSC)
@@ -100,7 +100,7 @@ jobs:
 ----
 
 # View using Docker Destop or Cloud Run
-## Docker Desktop  (View thru localhost)
+## Docker Desktop  (View thru localhost
 - Go to Images, select Remote Repositories and press PULL for the file. The file will move to Local
 - Go to Local and press RUN. Fill in the Localhost: 3008 (or change the last 2 digits) 
 - Key in `http://localhost:3008` in the browser 
