@@ -20,7 +20,7 @@
 ## 2. Visuol Studio Code (VSC)
 - Go to Clone Git Repository
 - Run ``` Git clone https://github.com/WL152/forms.git ```  
-- Update files (e.g index.html, Dockerfile, etc) and save the changes
+- Update files (e.g index.html, Dockerfile, main.yml, etc) and save the changes
 - Push to Github (```  git add .  ```      /      ```  git commit -m "Remark"  ```      / ``` git push ``` )
 - After push, go to Github to check the workflow is running successfully
 
