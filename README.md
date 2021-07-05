@@ -17,7 +17,7 @@
 - Create a new repository (remember to Add a README file)✅
 - Go to Actions and create workflow
  
-## 2. Visuol Studio Code (VSC)
+## 2. Visual Studio Code (VSC)
 - Go to Clone Git Repository
 - Run ``` Git clone https://github.com/WL152/forms.git ```  
 - Update files (e.g index.html, Dockerfile, main.yml, etc) and save the changes
