@@ -51,7 +51,7 @@ I do face some error messages while build container. Luckily I managed to solve 
 
 ![image](https://user-images.githubusercontent.com/81748800/124376413-7db59c00-dcd9-11eb-8472-da45a1281820.png)
 
-For an easy reference https://docs.docker.com/ci-cd/github-ac
+For an easy reference https://docs.docker.com/ci-cd/github-actions/
 
 ## 5. Change workflow in the GitHub
 - Go to workflow and change accordingly
