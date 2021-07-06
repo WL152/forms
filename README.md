@@ -44,7 +44,7 @@ I do face some error messages while build container. Luckily I managed to solve 
 
 ## 4. Setting up a GitHub Action CI/CD pipeline with Docker containers
 - Need to create Docker ID first  https://docs.docker.com/docker-hub/
-- Add your Docker ID as a secret to GitHub. Go to GitHub repository and click Accounts Settings > Security > New repository secret
+- Add your Docker ID as a secret to GitHub. Go to GitHub repository and click Settings > Secrets > New repository secret
 - Create a new Access Token with the name `DOCKER_HUB_USERNAME` and Docker ID as value.
 - Create a new Personal Access Token (PAT). To create a new token, go to Docker Hub Settings and click New Access Token.
 - Add Personal Access Token (PAT) as a second secret to the GitHub secrets UI with the name `DOCKER_HUB_ACCESS_TOKEN`
