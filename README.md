@@ -53,8 +53,11 @@ I do face some error messages while build container. Luckily I managed to solve 
 
 For an easy reference https://docs.docker.com/ci-cd/github-actions/
 
-## 5. Change workflow in the GitHub
+## 5. Change workflow in VSC 
 - Go to workflow and change accordingly
+- Push to Github (```  git add .  ```      /      ```  git commit -m "Remark"  ```      / ``` git push ``` )
+- After push, go to Github to check the workflow is running successfully
+
 
 ```javascript
 name: CI to Docker Hub
