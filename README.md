@@ -40,7 +40,7 @@
 I do face some error messages while build container. Luckily I managed to solve it by looking for solutions on the internet. 😅
 ![image](https://user-images.githubusercontent.com/81748800/124373342-26f19780-dcc4-11eb-9a7a-35107d845fc2.png)
 
-**Lesson learn : Remember to run at the correct path**  🤣
+**Lesson learn : Remember install docker desktop https://docs.docker.com/docker-for-windows/install/ and run at the correct path**  🤣
 
 ## 4. Setting up a GitHub Action CI/CD pipeline with Docker containers
 - Need to create Docker ID first  https://docs.docker.com/docker-hub/
